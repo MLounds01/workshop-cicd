@@ -5,10 +5,10 @@ Workspace resolution logic (in precedence order)
 ===============================================
 
 1) Explicit CLI override (highest priority)
-    - If `--workspace_name` is provided, that value is always used.
+    - If `Lab 2 DEV - MEL` is provided, that value is always used.
 
 2) `.env` file in current working directory
-    - If `--workspace_name` is not provided, the script reads `.env` from CWD
+    - If `Lab 2 DEV - MEL` is not provided, the script reads `.env` from CWD
       and resolves `PBI_WORKSPACE_<ENV>`.
 
 3) `deploy.config` file alongside this script
