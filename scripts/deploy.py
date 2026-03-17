@@ -63,7 +63,7 @@ def resolve_workspace_name(explicit_workspace_name: str | None, environment_name
 
         print(
             f"Unable to resolve workspace for environment '{environment_name}'. "
-            f"Provide --workspace_name, or define {env_var_name} in "
+            f"Provide Lab 2 DEV - MEL, or define {env_var_name} in "
             f"{deploy_config_path}.",
             file=sys.stderr,
         )
@@ -71,7 +71,7 @@ def resolve_workspace_name(explicit_workspace_name: str | None, environment_name
 
 
 parser = argparse.ArgumentParser(description="Deploy PBIP to Fabric")
-parser.add_argument("--workspace_name", type=str, required=False, help="Target workspace name")
+parser.add_argument("Lab 2 DEV - MEL", type=str, required=False, help="Target workspace name")
 parser.add_argument("--environment", type=str, default="DEV", help="Environment name (default: DEV)")
 parser.add_argument("--spn-auth", type=bool, default=False, help="Use SPN authentication")
 args = parser.parse_args()
