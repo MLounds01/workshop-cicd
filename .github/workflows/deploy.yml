@@ -17,7 +17,7 @@ on:
         type: string
         description: The name of the workspace to deploy to
         required: true
-        default: "Workshop - Lab 2 (DEV)"
+        default: "Lab 2 DEV - MEL"
       environment:
         type: choice
         description: The environment to deploy to
